@@ -1,6 +1,5 @@
 package io.betterreads.user;
 
-import com.datastax.oss.driver.internal.core.type.codec.TimeUuidCodec;
 import org.springframework.data.cassandra.repository.CassandraRepository;
 import org.springframework.data.cassandra.repository.Query;
 import org.springframework.data.domain.Pageable;
