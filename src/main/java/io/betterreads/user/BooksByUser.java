@@ -55,6 +55,7 @@ public class BooksByUser {
     @CassandraType(type = Name.INT)
     private int rating;
 
+    //transient annotation prevent this column creation in database
     @Transient
     private String coverUrl;
 
