@@ -73,12 +73,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<name>ayushdubey755/brv1-${project.artifactId}:${project.version}</name>
-					</image>
-					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
-				</configuration>
+<!--				<configuration>-->
+<!--					<image>-->
+<!--						<name>ayushdubey755/brv1-${project.artifactId}:${project.version}</name>-->
+<!--					</image>-->
+<!--					<pullPolicy>IF_NOT_PRESENT</pullPolicy>-->
+<!--				</configuration>-->
 			</plugin>
 		</plugins>
 		<finalName>betterreads</finalName>
