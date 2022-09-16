@@ -17,10 +17,10 @@ spring:
       password: 0r_whZK776GPTXmr2TPo1RktteSSMBkNr_7xE23cUj5t9NOSTFyYKMhrLSpi5eJN+qJmFnvuBLPuvTdbbC+SygWyIouLEalJHbosGivg6_98vTBo06j_SBYFSP2rXtGS
       schema-action: CREATE_IF_NOT_EXISTS
       request:
-        timeout: 10s
+        timeout: 30s
       connection:
-        connect-timeout: 10s
-        init-query-timeout: 10s
+        connect-timeout: 30s
+        init-query-timeout: 30s
   main:
      allow-circular-references: true
 
