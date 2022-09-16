@@ -1,3 +1,5 @@
+server:
+  port : 8081
 spring:
   application:
     name: betterreads
@@ -8,7 +10,6 @@ spring:
           github:
             client-id: Iv1.b7c415c06ede6613
             client-secret: 0addd4d8e5a4b2114cc00e3882a183ad6aaea0df
-
   data:
     cassandra:
       keyspace-name: main
